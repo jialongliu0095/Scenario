@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+const apiUrl = process.env.NEXT_TESTNEXT_TEST;
+
 export default function Page() {
   return (
     <div className="p-4 space-y-6 bg-gray-100 dark:bg-gray-900">
@@ -69,22 +71,22 @@ export default function Page() {
         </p>
         <ol className="list-decimal pl-6 space-y-2">
           <li>
-            <Link href="/app/Commit" className="text-blue-600 underline">
+            <Link href="/app/commit" className="text-blue-600 underline">
               Chairman of the committee
             </Link>
           </li>
           <li>
-            <Link href="/app/security" className="text-blue-600 underline">
+            <Link href="/app/secretary" className="text-blue-600 underline">
               Secretary of the committee
             </Link>
           </li>
           <li>
-            <Link href="/app/Treasurer" className="text-blue-600 underline">
+            <Link href="/app/treasurer" className="text-blue-600 underline">
               Treasurer of the committee
             </Link>
           </li>
           <li>
-            <Link href="/app/function1" className="text-blue-600 underline">
+            <Link href="/app/security" className="text-blue-600 underline">
               Head of Security
             </Link>
           </li>
@@ -94,6 +96,11 @@ export default function Page() {
             </Link>
           </li>
         </ol>
+      </section>
+
+      <section className="mt-8 border-t pt-4 text-center text-sm text-gray-600 dark:text-gray-400">
+        <p>The API address of the current connection is:</p>
+        <p className="font-mono text-blue-600">{apiUrl}</p>
       </section>
 
       <footer className="mt-10 border-t pt-4 text-sm text-gray-600 dark:text-gray-400">
