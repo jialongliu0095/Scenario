@@ -71,27 +71,27 @@ export default function Page() {
         </p>
         <ol className="list-decimal pl-6 space-y-2">
           <li>
-            <Link href="/Commit/page.tex" className="text-blue-600 underline">
+            <Link href="/Commit" className="text-blue-600 underline">
               Chairman of the committee
             </Link>
           </li>
           <li>
-            <Link href="/secretary/page.tex" className="text-blue-600 underline">
+            <Link href="/secretary" className="text-blue-600 underline">
               Secretary of the committee
             </Link>
           </li>
           <li>
-            <Link href="/treasurer/page.tex" className="text-blue-600 underline">
+            <Link href="/Treasurer" className="text-blue-600 underline">
               Treasurer of the committee
             </Link>
           </li>
           <li>
-            <Link href="/security/page.tsx" className="text-blue-600 underline">
+            <Link href="/security" className="text-blue-600 underline">
               Head of Security
             </Link>
           </li>
           <li>
-            <Link href="/maintain/page.tsx" className="text-blue-600 underline">
+            <Link href="/maintain" className="text-blue-600 underline">
               Maintenance Supervisor
             </Link>
           </li>
