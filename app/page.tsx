@@ -69,22 +69,22 @@ export default function Page() {
         </p>
         <ol className="list-decimal pl-6 space-y-2">
           <li>
-            <Link href="/app/commit" className="text-blue-600 underline">
+            <Link href="/app/Commit" className="text-blue-600 underline">
               Chairman of the committee
             </Link>
           </li>
           <li>
-            <Link href="/app/secretary" className="text-blue-600 underline">
+            <Link href="/app/security" className="text-blue-600 underline">
               Secretary of the committee
             </Link>
           </li>
           <li>
-            <Link href="/app/treasurer" className="text-blue-600 underline">
+            <Link href="/app/Treasurer" className="text-blue-600 underline">
               Treasurer of the committee
             </Link>
           </li>
           <li>
-            <Link href="/app/security" className="text-blue-600 underline">
+            <Link href="/app/function1" className="text-blue-600 underline">
               Head of Security
             </Link>
           </li>
