@@ -86,12 +86,12 @@ export default function Page() {
             </Link>
           </li>
           <li>
-            <Link href="/security" className="text-blue-600 underline">
+            <Link href="/function1" className="text-blue-600 underline">
               Head of Security
             </Link>
           </li>
           <li>
-            <Link href="/function1" className="text-blue-600 underline">
+            <Link href="/maintain" className="text-blue-600 underline">
               Maintenance Supervisor
             </Link>
           </li>
