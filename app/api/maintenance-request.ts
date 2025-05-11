@@ -1,4 +1,9 @@
-export default async function handler(req, res) {
+import { NextApiRequest, NextApiResponse } from 'next';
+
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   if (req.method === "POST") {
     const { unit, issue, submittedBy } = req.body;
     res.status(201).json({
