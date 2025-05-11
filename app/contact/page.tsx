@@ -1,4 +1,6 @@
 // This is a Next.js page component that handles a contact form submission.
+'use client'
+
 import { useState } from 'react'
 
 export default function ContactPage() {
