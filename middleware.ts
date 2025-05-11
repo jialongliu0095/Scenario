@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 
-
 interface GeoRequest extends NextRequest {
   geo?: {
     country?: string;
@@ -8,9 +7,10 @@ interface GeoRequest extends NextRequest {
 }
 
 export function middleware(request: GeoRequest) {
-  const country = request.geo?.country || "US"; // 
+  const country = request.geo?.country || "US";
+
   if (country !== "AU") {
-    return NextResponse.redirect("https://stratamanagement.vercel.app");
+    return NextResponse.redirect("https://scenario-mv2f.vercel.app");
   }
 
   return NextResponse.next();
