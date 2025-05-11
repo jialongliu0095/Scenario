@@ -22,6 +22,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
   }
 
-  // 如果没有缺少字段，重定向到成功页面
-  return NextResponse.redirect('https://scenario-mv2f.vercel.app/for-thanks', 302)
+  
+  return NextResponse.redirect('https://scenario-mv2f.vercel.app/app/for-thanks', 302)
 }
